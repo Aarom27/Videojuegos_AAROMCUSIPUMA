@@ -1,0 +1,111 @@
+header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.ed-menu a:hover{
+    background: #778899;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+#iphone-11 img {
+    width: 80%; /* Ajusta el tamaño según tus necesidades */
+    max-width: 300px; /* Establece un tamaño máximo si es necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+#iphone-12 img {
+    width: 80%; /* Ajusta el tamaño según tus necesidades */
+    max-width: 300px; /* Establece un tamaño máximo si es necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+#iphone-13 img {
+    width: 80%; /* Ajusta el tamaño según tus necesidades */
+    max-width: 300px; /* Establece un tamaño máximo si es necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+#iphone-14 img {
+    width: 80%; /* Ajusta el tamaño según tus necesidades */
+    max-width: 300px; /* Establece un tamaño máximo si es necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+.info-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: white;
+    background-color: #007bff; /* Color de fondo azul */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+
+.info-button:hover {
+    background-color: #0056b3; /* Color de fondo azul más oscuro en hover */
+}
+.logo-icon {
+    width: 80px; /* Ajusta el tamaño según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+.lol{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    
+}
+@media (max-width:900px){
+    .lol{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.caja {
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2, p {
+    margin: 10px 0;
+}
+img.grande {
+    width: 900px; /* Ajusta este valor según el tamaño deseado */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px; /* Reducir espacio entre las imágenes */
+    margin-top: 20px;
+}
+
+.grid-item {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 5px; /* Reducir padding alrededor de las imágenes */
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
